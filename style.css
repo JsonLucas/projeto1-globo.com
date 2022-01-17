@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans:wght@500&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Encode Sans', sans-serif;
+    width: 1250px;
+}
+a:link, a:hover, a:visited{
+    text-decoration: none;
+}
+#materia-principal > a,
+.main-title > a,
+.header-items > a{
+    color: #c4160c;
+}
+#materia-secundaria > a,
+.notice-title > a,
+.subtitle > a{
+    color: #303134;
+}
+.container-body{
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+}
+#header{
+    display: flex;
+    justify-content: center;
+}
+.header-items{
+    align-items: center;
+    color: green;   
+    margin-top: 1%;
+}
+.container-body-primario, .container-body-secundario, .container-body-mais, .sub-container, .sub-container-outros, 
+.outro-materias-destaque, #materia-principal, #materia-secundaria{
+    margin-top: 2%;
+}
+.container-body-secundario, .container-body-mais{
+    margin-left: 2%;
+}
+.container-body-primario{
+    width: 49%;
+    flex-wrap: wrap;
+}
+.container-body-secundario, .container-body-mais{
+    width: 23.5%;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.sub-container, .sub-container-outros{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.main-title{
+    margin-top: 3%;
+    color: #c4160c;
+}
+.notice-title{
+    font-weight: bold;
+    font-size: 20px;
+}
+.subtitle > a{
+    margin-top: 3%;
+    font-size: 14px;
+}
+#materia-principal{
+    width: 100%;
+    font-weight: bold;
+    color: #c4160c;
+    font-size: 52px;
+}
+#materia-secundaria{
+    width: 100%;
+    font-size: 18px;
+    color: #303134;
+}
+.materias-destaque, .outro-materias-destaque{
+    justify-content: center;
+    margin-top: 2%;
+    width: 192px;
+}
+.materias-destaque-secundario, .materias-destaque-mais{
+    margin-top: 2%;
+    width: 225px;
+}
+.materias-destaque > a > img, .materias-destaque-secundario > a > img, .materias-destaque-mais > a > img{
+    width: 100%;
+    border-radius: 12px;
+}
+@media screen and (min-width: 1250px){
+    .main-container{
+        margin-left: 4.5%;
+    }
+}
